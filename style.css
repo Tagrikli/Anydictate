@@ -1,0 +1,141 @@
+* {
+    font-family: Arial, serif
+}
+
+
+.py {
+    display: none;
+}
+
+#json {
+    visibility: hidden;
+}
+
+
+img {
+    margin-top: 10px;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+#anydictate {
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+    color: burlywood;
+}
+
+.side {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    background: whitesmoke;
+    box-shadow: 0 0 10px brown;
+    transition: 0.5s ease;
+}
+
+#setting {
+    left: -210px;
+}
+
+
+.button {
+
+    background: dodgerblue;
+    font-size: larger;
+    font-weight: bold;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+    transition: 0.2s ease;
+    user-select: none;
+
+}
+
+
+
+.button:hover {
+    background: navy;
+}
+
+.seperator {
+
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    user-select: none;
+
+}
+
+#fav-langs-group > .button {
+
+    font-size: medium;
+    font-weight: bold;
+    background-color: dodgerblue;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    transition: 0.2s ease;
+    user-select: none;
+    overflow-y: auto;
+
+}
+
+#setting-fav-lang-group >.button {
+
+    font-size: medium;
+    font-weight: bold;
+    background-color: lightcoral;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+    transition: 0.2s ease;
+    user-select: none;
+
+
+}
+
+#setting-fav-lang-group >.button:hover {
+
+    opacity: 0.4;
+
+}
+
+
+
+
+
+select {
+    display: block;
+    width: 100%;
+    height: 30px;
+    background: skyblue;
+    font-size: larger;
+}
+
+
+#typedsofar {
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 200px;
+    font-size: x-large;
+    color: black;
+    overflow-y: auto;
+}
+
+.output {
+    display: inline-block;
+    border: 1px lightgray solid;
+    border-radius: 5px;
+    padding: 3px;
+}
