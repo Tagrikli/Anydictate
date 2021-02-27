@@ -109,7 +109,7 @@ def main():
 
     start_server = websockets.serve(main_cycle,'localhost',5000)
     LOGGER.setLevel(logging.WARNING)
-    driver = webdriver.Chrome(resource_path("chromedriver.exe"))
+    driver = webdriver.Chrome(resource_path("chromedriver"))
     htmlpath = resource_path("index.html")
     driver.get("file://{}".format(htmlpath))
 
